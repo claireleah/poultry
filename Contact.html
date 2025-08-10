@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Golden Feathers Poultry Farm</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #fdfaf6;
+            color: #333;
+        }
+
+        header {
+            background-color: #f4b41a;
+            padding: 1rem;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .contact-section {
+            max-width: 900px;
+            margin: auto;
+            padding: 2rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+
+        .contact-info h2 {
+            color: #f4b41a;
+        }
+
+        .contact-info p {
+            margin-bottom: 1rem;
+        }
+
+        .contact-form h2 {
+            color: #f4b41a;
+            margin-bottom: 1rem;
+        }
+
+        .contact-form form input,
+        .contact-form form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .contact-form form button {
+            background-color: #f4b41a;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .contact-form form button:hover {
+            background-color: #d99a16;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        @media(max-width: 768px) {
+            .contact-section {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Golden Feathers Poultry Farm</h1>
+        <p>We’re Here to Help You</p>
+    </header>
+
+    <section class="contact-section">
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Address:</strong> Plot 25, Farm Road, Kampala, Uganda</p>
+            <p><strong>Phone:</strong> +256 700 123 456</p>
+            <p><strong>Email:</strong> info@goldenfeathersfarm.com</p>
+            <p><strong>Working Hours:</strong><br>Mon - Sat: 8:00 AM - 6:00 PM<br>Sunday: Closed</p>
+        </div>
+
+        <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Golden Feathers Poultry Farm | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
