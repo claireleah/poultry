@@ -14,6 +14,9 @@
          <div class="header__top">
                 <nav class="nav container">
                     <a href="index.html" class="nav__logo">
+                        <img src="Assets/img/logos-removebg-preview (1).png" alt="" class="nav__logo-img"/>
+                    </a>
+                    <a href="index.html" class="nav__logo">
                         <img src="" alt="" class="nav__logo-img"/>
                     </a>
                     <div class="nav__menu" id="nav-menu">
@@ -38,7 +41,7 @@
     <section class="contact-section">
         <div class="contact-info">
             <h2>Contact Information</h2>
-            <p><strong>Address:</strong> Namengo, Kyabakadde</p>
+            <p><strong>Address:</strong>Makeerere, Kikoni</p>
             <p><strong>Phone:</strong> +256 700 123 456</p>
             <p><strong>Email:</strong> info@kyosigakyokungula.com</p>
             <p><strong>Working Hours:</strong><br>Mon - Sat: 8:00 AM - 6:00 PM<br>Sunday: Closed</p>
@@ -46,7 +49,7 @@
 
         <div class="contact-form">
             <h2>Send Us a Message</h2>
-            <form action="#" method="POST">
+            <form action="https://formspree.io/f/manbgzry" method="POST" onsubmit="return showMessage()" class="email">
                 <input type="text" name="name" placeholder="Your Name" required>
                 <input type="email" name="email" placeholder="Your Email" required>
                 <input type="text" name="subject" placeholder="Subject" required>
@@ -56,9 +59,16 @@
         </div>
     </section>
 
+
+     <div id="formMessage"></div>
+     <script src="main.js"></script> 
+
+
+    
     <footer>
         <p>copyright 2025 Kyosiga -All Rights Reserved</p>
     </footer>
 
+   
 </body>
 </html>
